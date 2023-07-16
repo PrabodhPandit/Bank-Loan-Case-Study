@@ -6,7 +6,7 @@ This case study aims to give you an idea of applying EDA in a real business scen
 
 Business Understanding:
 
-The loan providing companies find it hard to give loans to the people due to their insufficient or non-existent credit history. Because of that, some consumers use it as their advantage by becoming a defaulter. Suppose you work for a consumer finance company which specialises in lending various types of loans to urban customers. You have to use EDA to analyse the patterns present in the data. This will ensure that the applicants capable of repaying the loan are not rejected.
+The loan providing companies find it hard to give loans to the people due to their insufficient or non-existent credit history. Because of that, some consumers use it as their advantage by becoming a defaulter. Our job is to use EDA to analyse the patterns present in the data and present our findings to the consumer finance company / bank which specialises in lending various types of loans to urban customers. This will ensure that the applicants capable of repaying the loan are not rejected.
 
 When the company receives a loan application, the company has to decide for loan approval based on the applicant’s profile. Two types of risks are associated with the bank’s decision:
 
@@ -29,7 +29,7 @@ Refused: The company had rejected the loan (because the client does not meet the
 
 Unused Offer: Loan has been cancelled by the client but on different stages of the process.
 
-In this case study, you will use EDA to understand how consumer attributes and loan attributes influence the tendency of default.
+In this case study, we will use EDA to understand how consumer attributes and loan attributes influence the tendency of default.
 
 Business Objectives:
 
@@ -37,11 +37,7 @@ It aims to identify patterns which indicate if a client has difficulty paying th
 
 In other words, the company wants to understand the driving factors (or driver variables) behind loan default, i.e. the variables which are strong indicators of default. The company can utilize this knowledge for its portfolio and risk assessment.
 
-To develop your understanding of the domain, you are advised to independently research a little about risk analytics – understanding the types of variables and their significance should be enough).
-
 Data Understanding:
-
-Download the Dataset using the link given under dataset section on the right.
 
 `application_data.csv` contains all the information of the client at the time of application.
 
@@ -51,54 +47,19 @@ The data is about wheather a client has payment difficulties.
 
 `columns_descrption.csv` is data dictionary which describes the meaning of the variables.
 
-You are required to provide a detailed report for the below data record mentioning the answer to the questions that follows:
 
-Present the overall approach of the analysis. Mention the problem statement and the analysis approach briefly
+We shall provide a detailed report for the below data record mentioning the answer to the questions that follows:
+
+We will present the overall approach of the analysis. Mention the problem statement and the analysis approach briefly
 
 Indentify the missing data and use appropriate method to deal with it. (Remove columns/or replace it with an appropriate value)
 
-Hint: Note that in EDA, since it is not necessary to replace the missing value, but if you have to replace the missing value, what should be the approach. Clearly mention the approach.
+Identify if there are outliers in the dataset. We will also mention why we think it is an outlier.
 
-Identify if there are outliers in the dataset. Also, mention why do you think it is an outlier. Again, remember that for this exercise, it is not necessary to remove any data points.
-
-Identify if there is data imbalance in the data. Find the ratio of data imbalance.
-
-Hint: Since there are a lot of columns, you can run your analysis in loops for the appropriate columns and find the insights.
+Identify if there is data imbalance in the data and find the ratio of data imbalance.
 
 Explain the results of univariate, segmented univariate, bivariate analysis, etc. in business terms.
 
-Find the top 10 correlation for the Client with payment difficulties and all other cases (Target variable). Note that you have to find the top correlation by segmenting the data frame w.r.t to the target variable and then find the top correlation for each of the segmented data and find if any insight is there. Say, there are 5+1(target) variables in a dataset: Var1, Var2, Var3, Var4, Var5, Target. And if you have to find top 3 correlation, it can be: Var1 & Var2, Var2 & Var3, Var1 & Var3. Target variable will not feature in this correlation as it is a categorical variable and not a continuous variable which is increasing or decreasing.
+Find the top 10 correlation for the Client with payment difficulties and all other cases (Target variable).
 
-Include visualizations and summarize the most important results in the presentation. You are free to choose the graphs which explain the numerical/categorical variables. Insights should explain why the variable is important for differentiating the clients with payment difficulties with all other cases.
-
-How to do this Project?
-
-Download the dataset: You are supposed to download the dataset and perform the analysis using Excel or Google sheets.
-
-Perform Analysis: Use Excel or Google Sheets to perform your entire analysis answering the questions asked above.
-
-Submit a Report: Make a report (PDF/PPT) to be presented to the leadership team. The report should/can contain the following details:
-
-Project Description
-
-Give a brief about your project description i.e. what is this project about, how are you going to handle the things and what are the things that you are going to find out through the project.
-
-Approach
-
-Write a short paragraph about your approach towards the project and how you have executed it.
-
-Tech-Stack Used
-
-Do mention the software and the version used while making the project (For Eg. Jupyter Notebook, etc) and mention the purpose of using it.
-
-Insights
-
-Jot down the insights and the knowledge you gained while making the project. You need to write that what do you infer about the things. Make sure its brief and up to the point only. For Eg. If you got a graph then what do you understand by the graph, what changes can you make or what can you derive from the graph.
-
-Result
-
-Mention what have you achieved while making the project and how do you think it has helped you.
-
-Drive Link
-
-Save your file as a “.pdf” file and upload it to your Google Drive. Mention the sharable link (link visibility should be set to public) in your pdf file which you will be uploading. Do not directly upload your project.
+We will include visualizations and summarize the most important results in the presentation. 

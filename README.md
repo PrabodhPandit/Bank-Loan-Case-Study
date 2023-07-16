@@ -46,20 +46,3 @@ The data is about wheather a client has payment difficulties.
 `previous_application.csv` contains information about the client’s previous loan data. It contains the data whether the previous application had been Approved, Cancelled, Refused or Unused offer.
 
 `columns_descrption.csv` is data dictionary which describes the meaning of the variables.
-
-
-We shall provide a detailed report for the below data record mentioning the answer to the questions that follows:
-
-We will present the overall approach of the analysis. Mention the problem statement and the analysis approach briefly
-
-Indentify the missing data and use appropriate method to deal with it. (Remove columns/or replace it with an appropriate value)
-
-Identify if there are outliers in the dataset. We will also mention why we think it is an outlier.
-
-Identify if there is data imbalance in the data and find the ratio of data imbalance.
-
-Explain the results of univariate, segmented univariate, bivariate analysis, etc. in business terms.
-
-Find the top 10 correlation for the Client with payment difficulties and all other cases (Target variable).
-
-We will include visualizations and summarize the most important results in the presentation. 
